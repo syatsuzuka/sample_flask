@@ -1,5 +1,5 @@
 from flask.ext.script import Manager
-from sample.app import app
+from template.app import app
 
 manager = Manager(app)
 app.config['DEBUG'] = True
